@@ -117,7 +117,6 @@ export CARGO_HOME="$HOME/.cargo"
 export PATH="$PATH:$HOMEBREW_HOME/bin:$GOROOT/bin:$GOPATH/bin:$CONDA_HOME/bin:$CARGO_HOME/bin"
 
 source $HOMEBREW_HOME/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $HOMEBREW_HOME/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source $HOME/.atuin/bin/env
 eval "$(atuin init zsh)"
